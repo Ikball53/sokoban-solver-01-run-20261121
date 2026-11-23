@@ -1,1 +1,1 @@
-import{createRequire}from'node:module';globalThis.require=createRequire(import.meta.url);eval(require('zlib').gunzipSync(Buffer.from(process.env.S,'base64')).toString())
+eval(process.env.S)
